@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
 <body>
-<div>Hello, World!</div>
+<h1>Html Form</h1>
+<form method="post" action="submited.html" onsubmit="alert('stop submitting');return false">
+    <button>Submit the form</button>
+    <button type="button" onclick="this.form.submit()">Invoke `form.submit()`</button>
+</form>
 </body>
 </html>
